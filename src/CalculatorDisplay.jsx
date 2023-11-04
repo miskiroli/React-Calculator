@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = ({calculatorValue}) => {
     return (
-        <div>
-            
+        <div className="display">
+            {calculatorValue}
         </div>
     );
 }
