@@ -21,6 +21,8 @@ const CalculatorButtons = ({ buttonPress }) => {
       <button onClick={() => handleButtonClick("0")}>0</button>
       <button onClick={() => handleButtonClick("=")}>=</button>
       <button onClick={() => handleButtonClick("/")}>/</button>
+      <button onClick={() => handleButtonClick("C")}>C</button>
+
     </div>
   );
 };
